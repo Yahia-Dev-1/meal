@@ -6,11 +6,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-    ,"predeploy": "npm run build",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/Yahia-Dev-1/Meals",
+  "homepage": "https://github.com/Yahia-Dev-1/meal",
   "dependencies": {
     "gh-pages": "^6.3.0",
     "lucide-react": "^0.544.0",
