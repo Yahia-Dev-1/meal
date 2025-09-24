@@ -5,23 +5,33 @@ const Slideshow = () => {
   const slides = [
     {
       img: require("../assets/1.jpg"),
-      title: "🍳 الوجبة الأولى",
+  title: "🍳 Meal 1",
       desc: "200 جرام بيض - 100 جرام جبنة قريش - 200 جرام بطاطس - زيت زيتون",
     },
     {
       img: require("../assets/2.jpg"),
-      title: "🍛 الوجبة الثانية",
+  title: "🍛 Meal 2",
       desc: "100 جرام صدور دجاج - 450 جرام أرز - 150 جرام سلطة",
     },
     {
       img: require("../assets/3.jpg"),
-      title: "🥘 الوجبة الثالثة",
+  title: "🥘 Meal 3",
       desc: "100 جرام دجاج - 450 جرام أرز - 150 جرام سلطة - زيت زيتون",
     },
     {
       img: require("../assets/4.jpg"),
-      title: "🍠 الوجبة الرابعة",
+  title: "🍠 Meal 4",
       desc: "400 جرام بطاطا - موزة - 50 جرام لوز - قهوة",
+    },
+    {
+      img: require("../assets/5.jpg"),
+  title: "🍌 Meal 5",
+      desc: "3 حبات تمر مجدول - موزة",
+    },
+    {
+      img: require("../assets/6.jpg"),
+  title: "🥚 Meal 6",
+      desc: "200 جرام بيض - 100 جرام جبنة قريش - 200 جرام بطاطس - معلقة زيت زيتون",
     },
   ];
 
@@ -40,14 +50,17 @@ const Slideshow = () => {
   return (
     <div className="relative w-[95%] max-w-xl mx-auto rounded-2xl overflow-hidden shadow-xl border-2 border-red-700">
       {/* الصورة */}
-      <img
-        src={slides[current].img}
-        alt={slides[current].title}
-        className="w-full h-50 sm:h-72 md:h-80 object-cover transition-all duration-700"
-      />
+      <div className="w-full h-[260px] sm:h-[340px] md:h-[400px] bg-black flex items-center justify-center overflow-hidden border-b-4 border-red-700">
+        <img
+          src={slides[current].img}
+          alt={slides[current].title}
+          className="w-full h-full object-cover transition-all duration-700 rounded-2xl shadow-lg animate-fadeIn animate-scaleIn"
+          style={{ imageRendering: 'auto' }}
+        />
+      </div>
 
       {/* النص فوق الصورة */}
-      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/70 to-transparent p-3 sm:p-4 text-center">
+      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/70 to-transparent p-3 sm:p-4 text-center animate-fadeIn animate-slideUp">
         <h2 className="text-lg sm:text-xl font-bold text-red-400 drop-shadow-lg">
           {slides[current].title}
         </h2>

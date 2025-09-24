@@ -2,7 +2,7 @@ import React from "react";
 
 type MacroCardProps = {
   name: string;
-  value: number;
+  value: number | string;
   unit: string;
   icon?: React.ReactNode; // أيقونة اختيارية
 };

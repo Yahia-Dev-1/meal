@@ -1,12 +1,12 @@
 import IngredientList from "../components/IngredientList";
 import MacroCard from "../components/MacroCard";
 
-const Meal1 = () => {
+const Meal6 = () => {
   const ingredients = [
     "200 جرام بيض",
     "100 جرام جبنة قريش",
     "200 جرام بطاطس مسلوقة",
-    "معلقة زيت زيتون",
+    "معلقة زيت زيتون"
   ];
 
   const macros = {
@@ -21,24 +21,24 @@ const Meal1 = () => {
       {/* Motivational phrase */}
       <div className="w-full flex flex-col md:flex-row justify-center items-center gap-4 mb-6 mt-2 animate-fadeIn animate-slideDown">
         <span className="block text-xl md:text-2xl font-bold text-yellow-400 drop-shadow-lg text-center tracking-wide">
-          Start your day strong! 💪
+          End your day with balance! 🥚
         </span>
         <span className="block text-xl md:text-2xl font-bold text-rose-300 drop-shadow-lg text-center tracking-wide">
-          Fuel for greatness
+          Protein for recovery
         </span>
       </div>
 
       {/* العنوان */}
       <h1 className="text-5xl md:text-6xl font-extrabold text-center mb-12 drop-shadow-lg tracking-wide text-rose-400">
-        🍳 Meal 1
+        🥚 Meal 6
       </h1>
 
       {/* الصورة + المكونات */}
       <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center rounded-3xl shadow-2xl p-4 md:p-8 border-2 bg-black/60 border-rose-800">
         <div className="flex justify-center">
           <img
-            src={require("../assets/1.jpg")}
-            alt="Meal 1"
+            src={require("../assets/6.jpg")}
+            alt="Meal 6"
             className="rounded-2xl shadow-xl border-4 w-full max-w-xs md:max-w-sm transition-transform duration-300 hover:scale-105 "
             style={{ borderColor: "#e11d48" }}
           />
@@ -54,7 +54,7 @@ const Meal1 = () => {
       {/* الماكروز */}
       <div className="w-full max-w-5xl grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 animate-scaleIn">
         <MacroCard name="Protein" value={macros.protein} unit="g" icon="🥩" />
-        <MacroCard name="Carbs" value={macros.carbs} unit="g" icon="🍚" />
+        <MacroCard name="Carbs" value={macros.carbs} unit="g" icon="🥔" />
         <MacroCard name="Fat" value={macros.fat} unit="g" icon="🥑" />
         <MacroCard name="Calories" value={macros.calories} unit="kcal" icon="🔥" />
       </div>
@@ -72,4 +72,4 @@ const Meal1 = () => {
   );
 };
 
-export default Meal1;
+export default Meal6;

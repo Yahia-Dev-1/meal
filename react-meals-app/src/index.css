@@ -1,3 +1,124 @@
+/* Uiverse.io Hamburger Button Styles */
+.btn {
+	width: 60px;
+	height: 50px;
+	border-radius: 8px;
+	border: none;
+	transition: all 0.5s ease-in-out;
+	font-size: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	background: #23272f;
+	color: #f5f5f5;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+}
+.btn:hover {
+	box-shadow: 0 0 20px 0px #2e2e2e3a;
+}
+.btn .icon {
+	position: absolute;
+	left: 0;
+	height: 50px;
+	width: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.5s;
+}
+.btn .text {
+	margin-left: 55px;
+	opacity: 1;
+	transition: all 0.5s;
+}
+.btn:hover .icon {
+	width: 175px;
+}
+.btn:hover .text {
+	opacity: 0;
+}
+.btn:focus {
+	outline: none;
+}
+.btn:active .icon {
+	transform: scale(0.85);
+}
+
+/* Uiverse.io Toggle (softer light mode) */
+.theme__toggle:checked ~ .theme__fill {
+	background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+}
+.theme__fill {
+	background: linear-gradient(135deg, #23272f 0%, #23272f 100%);
+	transition: background 0.4s;
+}
+.theme__toggle:checked ~ .theme__icon .theme__icon-part {
+	background: #fbbf24;
+}
+.theme__icon .theme__icon-part {
+	background: #f5f5f5;
+}
+.theme__toggle:checked ~ .theme__icon {
+	color: #23272f;
+}
+.theme__icon {
+	color: #f5f5f5;
+}
+.theme__toggle:checked ~ .theme__icon-part {
+	background: #fbbf24;
+}
+.theme__toggle:checked ~ .theme__icon {
+	color: #23272f;
+}
+.theme__toggle:checked ~ .theme__fill {
+	box-shadow: 0 0 0 2px #fbbf24;
+}
+.theme__toggle:focus ~ .theme__fill {
+	outline: 2px solid #fbbf24;
+}
+.theme__toggle:focus {
+	outline: none;
+}
+.theme__toggle {
+	accent-color: #fbbf24;
+}
+@keyframes scaleIn {
+	from { opacity: 0; transform: scale(0.96); }
+	to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideUp {
+	from { opacity: 0; transform: translateY(32px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-scaleIn {
+	animation: scaleIn 0.7s cubic-bezier(0.4,0,0.2,1) both;
+}
+
+.animate-slideUp {
+	animation: slideUp 0.7s cubic-bezier(0.4,0,0.2,1) both;
+}
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes slideDown {
+	from { transform: translateY(-16px); opacity: 0; }
+	to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-fadeIn {
+	animation: fadeIn 0.4s ease both;
+}
+
+.animate-slideDown {
+	animation: slideDown 0.4s cubic-bezier(0.4,0,0.2,1) both;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
