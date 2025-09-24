@@ -1,16 +1,43 @@
 {
   "files": {
-    "main.css": "/meal/static/css/main.e5e179b9.css",
-    "main.js": "/meal/static/js/main.bcc2572a.js",
+    "main.css": "/meal/static/css/main.e175c90f.css",
+    "main.js": "/meal/static/js/main.e1717b6e.js",
+    "static/media/Dumbbell Incline bench.mp4": "/meal/static/media/Dumbbell Incline bench.3357ccf18771e1ee09e6.mp4",
+    "static/media/Lateral Raises.mp4": "/meal/static/media/Lateral Raises.8237b951e976c209b000.mp4",
+    "static/media/Lat Pulldown.mp4": "/meal/static/media/Lat Pulldown.cbc06e9de332119f445d.mp4",
+    "static/media/Leg press.mp4": "/meal/static/media/Leg press.495c5771455cf90221c4.mp4",
+    "static/media/Cable Cross .mp4": "/meal/static/media/Cable Cross .56933ed34e4c6f287645.mp4",
+    "static/media/Rope Tricep Overhead Extension.mp4": "/meal/static/media/Rope Tricep Overhead Extension.c2a0f43c8a8cc2c454e8.mp4",
+    "static/media/lunges.mp4": "/meal/static/media/lunges.cd8c8651aa2817ba9c5a.mp4",
+    "static/media/Dumbbell Hammer Curl.mp4": "/meal/static/media/Dumbbell Hammer Curl.2bb3d384928fc226ae0d.mp4",
+    "static/media/logo.jpg": "/meal/static/media/logo.ddab72a18dd0bdb1aa24.jpg",
+    "static/media/Flat Bench Press.mp4": "/meal/static/media/Flat Bench Press.97b75710d956887e3c8e.mp4",
+    "static/media/Hip thrust.mp4": "/meal/static/media/Hip thrust.a5855befe1927f299c0b.mp4",
+    "static/media/Wide Grip T-Bar Row.mp4": "/meal/static/media/Wide Grip T-Bar Row.ff3ef74612c52abf0c76.mp4",
+    "static/media/Seated Cable Row.mp4": "/meal/static/media/Seated Cable Row.80e75cc463c4191d43dd.mp4",
+    "static/media/Leg extension.mp4": "/meal/static/media/Leg extension.5579cd2e2ad551c85099.mp4",
+    "static/media/Dumbbell Shoulder Press.mp4": "/meal/static/media/Dumbbell Shoulder Press.94b6b7596458a4ae5d1a.mp4",
+    "static/media/Rear Delt Machine Fly.mp4": "/meal/static/media/Rear Delt Machine Fly.2aa9a77275d070620bb4.mp4",
+    "static/media/Calf raise standing.mp4": "/meal/static/media/Calf raise standing.320e37b2bde2851a0eee.mp4",
+    "static/media/Back Extension.mp4": "/meal/static/media/Back Extension.e7ed7ea71a52f28bead5.mp4",
+    "static/media/Limitless Co Q10.jpg": "/meal/static/media/Limitless Co Q10.6cb6b8cdebfa65b2c256.jpg",
+    "static/media/Rope Tricep Pushdown.mp4": "/meal/static/media/Rope Tricep Pushdown.80d017c71bae81a6a88c.mp4",
+    "static/media/Behind-the-Back Cable Curl .mp4": "/meal/static/media/Behind-the-Back Cable Curl .768d842429814d7411e3.mp4",
     "static/media/3.jpg": "/meal/static/media/3.86cc2bf42f19dd61d653.jpg",
     "static/media/2.jpg": "/meal/static/media/2.32378ba1b695e6da6f91.jpg",
+    "static/media/5.jpg": "/meal/static/media/5.00d0f0d82f95a53d592f.jpg",
+    "static/media/The end.jpg": "/meal/static/media/The end.ddacac22edfbbb85e367.jpg",
+    "static/media/Cretard.jpg": "/meal/static/media/Cretard.dc8e40921772b7a96fcb.jpg",
+    "static/media/Machine Chest Fly.mp4": "/meal/static/media/Machine Chest Fly.a39fadd65d74610296b3.mp4",
+    "static/media/Osteocare.jpg": "/meal/static/media/Osteocare.82925f954cc4de6ecb62.jpg",
+    "static/media/6.jpg": "/meal/static/media/6.a3309289389e9e62cdde.jpg",
     "static/media/1.jpg": "/meal/static/media/1.82e3acc17cdb5d5b76b3.jpg",
     "index.html": "/meal/index.html",
-    "main.e5e179b9.css.map": "/meal/static/css/main.e5e179b9.css.map",
-    "main.bcc2572a.js.map": "/meal/static/js/main.bcc2572a.js.map"
+    "main.e175c90f.css.map": "/meal/static/css/main.e175c90f.css.map",
+    "main.e1717b6e.js.map": "/meal/static/js/main.e1717b6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5e179b9.css",
-    "static/js/main.bcc2572a.js"
+    "static/css/main.e175c90f.css",
+    "static/js/main.e1717b6e.js"
   ]
 }
